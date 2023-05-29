@@ -1,0 +1,49 @@
+html{
+    background-image:url("./temp1.jpg");
+   max-height: 100px;
+    position: static;
+    text-align: center;
+    padding: 150px 120px;
+
+  }
+
+.temp{
+    margin-block: 25px;
+    background-image: linear-gradient(45deg,rgb(224, 174, 34),red, rgb(236, 240, 34),rgba(28, 28, 199, 0.774));
+    font-family: cursive;
+    text-decoration: underline;
+    width: 50%;
+    height:50%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    outline:5px solid navy;
+    border-radius: 5px;
+}
+.a input{
+    background-color:rgb(247, 247, 247);
+    color: rgb(10, 14, 14);
+    width: 75%;
+    display:flexbox;
+    flex-wrap: wrap;
+} 
+
+input.sc{
+    background-color:rgba(7, 236, 149, 0.733);
+    width:25%;
+    height:20%;
+    background-image: linear-gradient(120deg,rgb(65, 123, 204),rgb(247, 244, 246));
+    text-decoration:rgb(247, 6, 6);
+    text-size-adjust: 10px;
+    outline: 0.5px solid rgb(0, 0, 0)  ;
+    border-radius:3px;
+}
+input.sc:hover{
+    color: rgb(206, 11, 11) !important;
+}
+input#fahrenheit,#celsius,#kelvin{
+    width:50%;
+    height: 50%;
+    border-radius: 3px;
+}
